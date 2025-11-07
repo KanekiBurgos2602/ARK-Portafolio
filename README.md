@@ -1,41 +1,55 @@
-# 🎧 ARK-Portafolio
+# 🎧 Portafolio MSR-Inspirado
 
-**Portafolio personal interactivo inspirado en el universo visual y sonoro de Monster Sirens Records (MSR).**  
-Desarrollado con React + Vite, combinando diseño moderno, estética sobria y una atmósfera digital personalizada.
-
----
-
-## ✨ Características principales
-
-- 🎬 Animación de carga inicial tipo intro MSR (con logo y rombos animados)
-- 🧭 Navegación fluida con animaciones suaves entre secciones
-- 🧑‍💻 Secciones organizadas: Sobre mí, Proyectos, Blog, Contacto
-- 🎨 Estética oscura, con tipografía futurista (`Orbitron`)
-- 📱 Diseño totalmente **responsivo** para escritorio, tablets y móviles
+**Portafolio personal de Ángel Eduardo Rodríguez Bermúdez**, con una estética visual inspirada en *Monster Sirens Records (MSR)*. Este portafolio lo ire modificando poco a poco y con mejores animaciones e interacciones.
 
 ---
 
-## 🧱 Tecnologías utilizadas
+## 🚀 Tecnologías utilizadas
 
-| Categoría        | Tecnologías                                |
-|------------------|---------------------------------------------|
-| Frontend         | `React`, `Vite`, `JavaScript`               |
-| Estilos          | `CSS3`, `Tailwind opcional`, `Custom loader`|
-| Animaciones      | `IntersectionObserver`, `CSS keyframes`     |
-| Control de versión | `Git`, `GitHub`                           |
+- **React.js (Vite)** – arquitectura basada en componentes.
+- **CSS personalizado** – control visual total y animaciones adaptadas.
+- **Intersection Observer API** – animaciones suaves al hacer scroll.
+- **React Router DOM** – navegación entre secciones sin recargar.
+- **Keyframes / Custom loader** – animación de carga con rombos dinámicos.
 
 ---
 
-## 📁 Estructura del proyecto
+## 📦 Descripción
+
+Este sitio funciona como un portafolio digital interactivo y moderno, con las siguientes secciones:
+
+- 🔹 Sobre mí  
+- 🔹 Proyectos  
+- 🔹 Contacto  
+- 🔹 Blog (experimental)
+
+Cuenta con una **animación de carga inicial estilo MSR**, navegación fluida y diseño completamente **responsivo**.  
+La estética se centra en una interfaz **oscura, limpia y geométrica**, reforzada por una tipografía futurista (`Orbitron`).
+
+---
+
+## ⚙️ Instalación y uso
+
+```bash
+# Clonar el repositorio
+git clone https://github.com/KanekiBurgos2602/ARK-Portafolio.git
+
+# Entrar en la carpeta del proyecto
+cd ARK-Portafolio
+
+# Instalar dependencias
+npm install
+
+# Ejecutar en entorno de desarrollo
+npm run dev
 
 ARK-Portafolio/
 │
-├── public/                             # Archivos públicos del sitio
-│   └── Logo.png                        # Icono del sitio
+├── public/                               # Archivos estáticos públicos
 │
 ├── src/
 │   ├── assets/
-│   │   ├── css/                        # Hojas de estilo por sección
+│   │   ├── css/                          # Hojas de estilo organizadas por vista
 │   │   │   ├── about.css
 │   │   │   ├── contact.css
 │   │   │   ├── footer.css
@@ -44,45 +58,29 @@ ARK-Portafolio/
 │   │   │   ├── navbar.css
 │   │   │   └── projects.css
 │   │   │
-│   │   └── img/                        # Recursos gráficos
+│   │   └── img/                          # Imágenes y logos
 │   │       ├── Lappland.jpg
-│   │       ├── Lappland_The_Decadenza_HG_2.jpg
 │   │       ├── Lappland_The_Decadenza_HG.png
 │   │       ├── Logo.png
 │   │       └── Texas.jpg
 │   │
-│   ├── components/                     # Componentes reutilizables
+│   ├── components/                       # Componentes reutilizables
 │   │   ├── footer.jsx
 │   │   ├── home_loader.jsx
 │   │   └── navbar.jsx
 │   │
-│   ├── pages/                          # Páginas principales
+│   ├── pages/                            # Páginas principales del sitio
 │   │   ├── about.jsx
 │   │   ├── contact.jsx
 │   │   ├── home.jsx
 │   │   └── projects.jsx
 │   │
-│   ├── index.css                       # Estilos globales
-│   ├── main.jsx                        # Punto de entrada React
-│   └── Routes.jsx                      # Sistema de rutas
+│   ├── index.css                         # Estilos globales base
+│   ├── main.jsx                          # Entrada principal de React
+│   └── Routes.jsx                        # Definición de rutas
 │
-├── .gitignore                          # Archivos ignorados por Git
-├── package.json                        # Dependencias y scripts
-├── vite.config.js                      # Configuración de Vite
-└── README.md                           # Documentación del proyecto
-
-
-## 🚀 Instalación
-
-Bash
-
-# Clonar el repositorio
-git clone https://github.com/KanekiBurgos2602/ARK-Portafolio.git
-cd ARK-Portafolio
-
-# Instalar dependencias
-npm install
-
-# Iniciar servidor de desarrollo
-npm run dev
+├── .gitignore
+├── package.json
+├── vite.config.js
+└── README.md                             # Documentación del proyecto
 
