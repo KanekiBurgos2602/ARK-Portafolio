@@ -1,16 +1,73 @@
-# React + Vite
+# 🎧 ARK-Portafolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Portafolio personal interactivo inspirado en el universo visual y sonoro de Monster Sirens Records (MSR).**  
+Desarrollado con React + Vite, combinando diseño moderno, estética sobria y una atmósfera digital personalizada.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Características principales
 
-## React Compiler
+- 🎬 Animación de carga inicial tipo intro MSR (con logo y rombos animados)
+- 🧭 Navegación fluida con animaciones suaves entre secciones
+- 🧑‍💻 Secciones organizadas: Sobre mí, Proyectos, Blog, Contacto
+- 🎨 Estética oscura, con tipografía futurista (`Orbitron`)
+- 📱 Diseño totalmente **responsivo** para escritorio, tablets y móviles
 
-The React Compiler is currently not compatible with SWC. See [this issue](https://github.com/vitejs/vite-plugin-react/issues/428) for tracking the progress.
+---
 
-## Expanding the ESLint configuration
+## 🧱 Tecnologías utilizadas
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+| Categoría        | Tecnologías                                |
+|------------------|---------------------------------------------|
+| Frontend         | `React`, `Vite`, `JavaScript`               |
+| Estilos          | `CSS3`, `Tailwind opcional`, `Custom loader`|
+| Animaciones      | `IntersectionObserver`, `CSS keyframes`     |
+| Control de versión | `Git`, `GitHub`                           |
+
+---
+
+## 📁 Estructura del proyecto
+
+src/
+├── assets/
+│   ├── css/
+│   │   ├── about.css
+│   │   ├── contact.css
+│   │   ├── footer.css
+│   │   ├── home_loader.css
+│   │   ├── home.css
+│   │   ├── navbar.css
+│   │   └── projects.css
+│   ├── img/
+│   │   ├── Lappland.jpg
+│   │   ├── Lappland_The_Decadenza_HG_2.jpg
+│   │   ├── Lappland_The_Decadenza_HG.png
+│   │   ├── Logo.png
+│   │   └── Texas.jpg
+├── components/
+│   ├── footer.jsx
+│   ├── home_loader.jsx
+│   └── navbar.jsx
+├── pages/
+│   ├── about.jsx
+│   ├── contact.jsx
+│   ├── home.jsx
+│   └── projects.jsx
+├── index.css
+├── main.jsx
+└── Routes.jsx
+
+## 🚀 Instalación
+
+Bash
+
+# Clonar el repositorio
+git clone https://github.com/KanekiBurgos2602/ARK-Portafolio.git
+cd ARK-Portafolio
+
+# Instalar dependencias
+npm install
+
+# Iniciar servidor de desarrollo
+npm run dev
+
