@@ -1,0 +1,40 @@
+/* === FOOTER GENERAL === */
+.footer {
+  color: #f0f0f0;                  
+  text-align: right;             
+  padding: 1.5rem;                
+  position: absolute;            
+  bottom: 0;
+  width: 100%;                    
+  left: 0;
+}
+
+.footer p {
+  margin: 0;                      
+  font-size: 1rem;                
+  color: #ccc;                    
+}
+
+/* === FOOTER RESPONSIVO === */
+
+/* Tablets y pantallas medianas */
+@media (max-width: 768px) {
+  .footer {
+    text-align: center;           
+    padding: 1rem;                
+    font-size: 0.95rem;           
+  }
+}
+
+/* Celulares y pantallas pequeñas */
+@media (max-width: 480px) {
+  .footer {
+    font-size: 0.9rem;            
+    padding: 0.8rem;              
+  }
+
+  .footer p {
+    font-size: 0.85rem;           
+  }
+}
+

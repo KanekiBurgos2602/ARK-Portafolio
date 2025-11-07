@@ -1,0 +1,89 @@
+/* === HOME GENERAL === */
+
+.home-left-block {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 40vh;
+  margin-left: 5vw;
+  z-index: 1;
+  flex-wrap: wrap; 
+}
+
+.home-left-logo {
+  width: 180px;
+  height: 180px;
+  object-fit: contain;
+  opacity: 0.85;
+}
+
+.home-left-text {
+  display: flex;
+  flex-direction: column;
+  color: #f0f0f0;
+  font-family: 'Orbitron', sans-serif;
+  align-items: center;
+  text-align: center;
+}
+
+.home-name {
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin: 0;
+  color: #ffffff;
+}
+
+.home-role {
+  font-size: 1.1rem;
+  color: #ccc;
+  margin-top: 0.3rem;
+}
+
+/* ======================= */
+/* MEDIA QUERIES RESPONSIVAS */
+/* ======================= */
+
+/* Pantallas medianas (tablets, 768px o menos) */
+@media (max-width: 768px) {
+  .home-left-block {
+    justify-content: center;
+    margin-top: 30vh;
+    margin-left: 0;
+  }
+
+  .home-left-logo {
+    width: 140px;
+    height: 140px;
+  }
+
+  .home-name {
+    font-size: 1.1rem;
+  }
+
+  .home-role {
+    font-size: 1rem;
+  }
+}
+
+/* Pantallas pequeñas (teléfonos, 480px o menos) */
+@media (max-width: 480px) {
+  .home-left-block {
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    margin-top: 25vh;
+  }
+
+  .home-left-logo {
+    width: 100px;
+    height: 100px;
+  }
+
+  .home-name {
+    font-size: 1rem;
+  }
+
+  .home-role {
+    font-size: 0.9rem;
+  }
+}
